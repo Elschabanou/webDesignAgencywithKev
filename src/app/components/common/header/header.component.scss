@@ -1,7 +1,21 @@
-
 header {
     display: flex;
     padding: var(--Raius, 20px) 60px;
     justify-content: space-between;
     align-items: center;    
+}
+.right-nav-items{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    
+    text-decoration: underline;
 }
