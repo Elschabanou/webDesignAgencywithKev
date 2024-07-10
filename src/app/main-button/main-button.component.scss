@@ -1,0 +1,27 @@
+@import "./src/styles.scss";
+
+
+:host {
+    --Radius: 20px;
+}
+  
+.custom-button {
+    display: inline-block;
+    text-align: center;
+    border-radius: var(--Radius, 20px);
+    background: linear-gradient(99deg, $warm-yellow 0%, $vibrant-red 100%);
+    color: $soft-white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+  
+.custom-button:hover {
+    opacity: 0.9;
+}
+  
+.custom-button:active {
+    opacity: 0.8;
+}
