@@ -15,6 +15,12 @@ body{
     background-color: $light-blue;
 }
 
+.outer-wrapper{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
 @font-face {
     font-family: 'Open Sans';
     src: url('./assets/fonts/OpenSans-Regular.ttf');
