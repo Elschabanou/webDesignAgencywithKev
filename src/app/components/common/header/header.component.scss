@@ -1,20 +1,29 @@
+@import "./src/styles.scss";
+
 header {
     display: flex;
     padding: var(--Raius, 20px) 60px;
     justify-content: space-between;
     align-items: center;    
+    position: fixed;
+    width: -webkit-fill-available;
+    backdrop-filter: blur(10px); /* Standard syntax */
+    -webkit-backdrop-filter: blur(10px);
+    font-weight: 600;
+    font-family: "Montserrat";
+    background: linear-gradient(180deg, rgba(0,35,35, 0.5) 0%, rgba(255,255,255, 0) 100%);
 }
 .right-nav-items{
     display: flex;
     gap: 30px;
     align-items: center;
-    
-
 }
 
 a{
     text-decoration: none;
+    color: $soft-white;
 }
+
 a:hover{
     
     text-decoration: underline;

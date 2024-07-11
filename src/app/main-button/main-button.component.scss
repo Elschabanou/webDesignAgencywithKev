@@ -4,7 +4,7 @@
     display: inline-block;
     text-align: center;
     border-radius: $radius;
-    background: linear-gradient(99deg, $warm-yellow 0%, $vibrant-red 100%);
+    background: linear-gradient(45deg, $warm-yellow 0%, $vibrant-red 100%);
     color: $soft-white;
     border: none;
     padding: 10px 20px;
@@ -13,13 +13,8 @@
     text-decoration: none;
     font-family: "Montserrat";
     font-weight: 600;
-
 }
   
 .custom-button:hover {
-    opacity: 0.9;
-}
-  
-.custom-button:active {
-    opacity: 0.8;
+    background: linear-gradient(45deg, $vibrant-red 0%, $warm-yellow 100%); // still needs some animation
 }
