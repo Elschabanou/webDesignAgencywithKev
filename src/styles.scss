@@ -22,6 +22,14 @@ body{
 }
 
 
+h1 {
+  font-size: calc(46px + 4vw);
+  font-family: "Montserrat";
+  font-weight: 900;
+  margin: 0px;
+  line-height: 95%;
+}
+
 
 @font-face {
     font-family: 'Open Sans';
@@ -29,14 +37,14 @@ body{
     font-weight: 400;
     font-style: normal;
   }
-  
+
 @font-face {
     font-family: 'Montserrat';
     src: url('./assets/fonts/Montserrat-Regular.ttf');
     font-weight: 400;
     font-style: normal;
 }
-  
+
 @font-face {
     font-family: 'Montserrat';
     src: url('./assets/fonts/Montserrat-Bold.ttf');
@@ -49,7 +57,7 @@ body{
     font-weight: 900;
     font-style: bold;
 }
-  
+
 @font-face {
     font-family: 'Montserrat';
     src: url('/assets/fonts/Montserrat-SemiBold.ttf') format('ttf');
