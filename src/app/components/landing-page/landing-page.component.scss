@@ -1,15 +1,46 @@
 @import "./src/styles.scss";
 
-
-.hero-section{
-  background: linear-gradient(164deg, $deep-blue 0%, #004DBB 97.07%);
+.hero-section {
+  background: linear-gradient(164deg, $deep-blue 0%, #004dbb 97.07%);
   color: $soft-white;
-  border-radius:  0 0 max(28px, 4vw) max(28px, 4vw); //later with responsive measures instead of px
+  border-radius: 0 0 max(28px, 4vw) max(28px, 4vw); //later with responsive measures instead of px
   display: flex;
   gap: 40px;
   flex-direction: column;
   padding: 100px 10vw 10%;
   margin-bottom: -60px;
+}
+
+// für die Section mit dem Text. Braucht besseren Namen
+#second {
+  background: $light-blue;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+}
+
+#outer-wrappe-version{
+  background-color: white;
+  border-bottom-left-radius: 80px;
+  padding: 80px 10% 80px 10%;
+}
+
+#background{
+  background-color: $light-blue;
+}
+
+.text-container{
+  display: flex;
+  gap: 40px;
+}
+
+.text-container p{
+  width: 50%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#hero-text{
+  color: $soft-white;
 }
 
 .lets-talk-section {
@@ -46,13 +77,10 @@
       border-radius: 0 max(28px, 4vw) 0 0;
       background-color: $vibrant-red;
     }
-
   }
-
 }
 
 @media only screen and (max-width: 700px) {
-
   #lets-talk-section-round-border {
     display: none;
   }
@@ -65,5 +93,4 @@
     width: 100%;
     border-radius: 0;
   }
-
 }

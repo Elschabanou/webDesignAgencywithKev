@@ -1,26 +1,23 @@
 // styles.scss
 
-
 // Variables
 $deep-blue: #002355;
 $soft-white: #ffff;
-$light-blue: #A3C5CE;
-$warm-yellow: #F2BA05;
-$vibrant-red: #EB3816;
+$light-blue: #a3c5ce;
+$warm-yellow: #f2ba05;
+$vibrant-red: #eb3816;
 $radius: 20px;
 
-body{
-    margin: 0;
-    overflow-x: hidden;
-    background-color: $light-blue;
-    font-family: "Open Sans";
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: $soft-white;
+  font-family: "Open Sans";
 }
 
-.outer-wrapper{
-    padding-left: 80px;
-    padding-right: 80px;
+.outer-wrapper {
+  padding: 80px 10% 80px 10%;
 }
-
 
 h1 {
   font-size: calc(46px + 4vw);
@@ -30,37 +27,53 @@ h1 {
   line-height: 95%;
 }
 
+h2 {
+  font-size: calc(22px + 2vw);
+  font-family: "Montserrat";
+  color: $deep-blue;
+  font-weight: 900;
+  margin: 0px;
+  margin-bottom: 2%;
+  line-height: 98%;
+}
 
-@font-face {
-    font-family: 'Open Sans';
-    src: url('./assets/fonts/OpenSans-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-  }
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('./assets/fonts/Montserrat-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
+p {
+  font-family: "Open Sans";
+  color: $deep-blue;
+  font-style: normal;
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('./assets/fonts/Montserrat-Bold.ttf');
-    font-weight: 700;
-    font-style: bold;
-}
-@font-face {
-    font-family: 'Montserrat';
-    src: url('./assets/fonts/Montserrat-Black.ttf');
-    font-weight: 900;
-    font-style: bold;
+  font-family: "Open Sans";
+  src: url("./assets/fonts/OpenSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Montserrat';
-    src: url('/assets/fonts/Montserrat-SemiBold.ttf') format('ttf');
-    font-weight: 600;
-    font-style: medium;
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-Black.ttf");
+  font-weight: 900;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/assets/fonts/Montserrat-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: medium;
 }
